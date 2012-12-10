@@ -22,7 +22,6 @@ TASKS
   # Select Dept.(Leverandør)/ Create Survey starttid,sluttid,navn,afslutningstype, leverandør)/ Question Creator
   # Create Dept. / Login Creator (departmentname, Password)
   # Archive / List dept.(edit,slet) / list survey(edit,slet) / list question (edit,slet) / 
-  # Forside / Login
   # Database
   # Use Cases (Også fully dressed)
   # Business Case
