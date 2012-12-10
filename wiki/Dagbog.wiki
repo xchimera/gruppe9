@@ -1,9 +1,0 @@
-#Dagbog for gruppen
-
-= Introduction =
-
-Her skal vi skrive hvad vi laver hver dag i gruppen
-
-Format:
-= Fredag 7. December =
-Vi snakkede om hvordan systemet skulle bygges op, vi lavede et sitemap.
