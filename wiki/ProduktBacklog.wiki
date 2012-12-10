@@ -9,3 +9,5 @@
   # List Survey
   # List Department
   # Archive
+  # Create journal
+  # Journal
