@@ -1,0 +1,11 @@
+  # GUI(forslag)
+  # Login
+  # Create  Department
+  # Select Department
+  # Create Survey
+  # Question Maker
+  # Login Handler
+  # List Question
+  # List Survey
+  # List Department
+  # Archive
