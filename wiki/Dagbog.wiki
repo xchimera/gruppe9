@@ -5,7 +5,5 @@
 Her skal vi skrive hvad vi laver hver dag i gruppen
 
 
-= Details =
-
- * Headings * asldsa
-asdasda
+= Fredag 7. December =
+Vi snakkede om hvordan systemet skulle bygges op, vi lavede et sitemap.
