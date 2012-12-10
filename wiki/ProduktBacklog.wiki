@@ -23,3 +23,16 @@ TASKS
   # Create Dept. / Login Creator (departmentname, Password)
   # Archive / List dept.(edit,slet) / list survey(edit,slet) / list question (edit,slet) / 
   # Forside / Login
+  # Database
+  # Use Cases (Også fully dressed)
+  # Business Case
+  # System Sekvens Diagram
+  # Virksomhedsbeskrivelse
+  # Donæne Model (objekt model, klasse diagram)
+  # Lagdelt arkitektur
+  # kontrakter
+  # Sekvensdiagrammer
+  # GRASP-mønstre
+  # Design-klassediagram
+  # Distribution (WCF, web-grænseflade, database design og implementering, SOA, osv.)
+  # Test og kvalitetssikring
