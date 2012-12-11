@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "WpfApplication1\GUI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{50651BEC-FFC6-4B88-8CB9-5451CAB4297F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -39,6 +41,16 @@ Global
 		{50651BEC-FFC6-4B88-8CB9-5451CAB4297F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{50651BEC-FFC6-4B88-8CB9-5451CAB4297F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{50651BEC-FFC6-4B88-8CB9-5451CAB4297F}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Debug|x86.ActiveCfg = Debug|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Debug|x86.Build.0 = Debug|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Release|Any CPU.ActiveCfg = Release|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Release|x86.ActiveCfg = Release|x86
+		{EC3F3EF4-663E-4F1C-8696-DC2F3C032680}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
