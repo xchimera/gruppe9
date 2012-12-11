@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Controller
 {
-    public class Class1
+    class DatabaseController
     {
     }
 }
