@@ -1,13 +1,19 @@
-﻿<Window x:Class="WpfApplication1.Window1"
+﻿<Window x:Class="GUI.FrmCreateDepartment"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Window1" Height="300" Width="300">
+        Title="Window1" Height="332" Width="300">
     <Grid>
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,104,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
-        <Label Content="Afdelingsnavn" Height="28" HorizontalAlignment="Left" Margin="12,102,0,0" Name="label1" VerticalAlignment="Top" />
-        <Label Content="Afdelingsnummer" Height="28" HorizontalAlignment="Left" Margin="12,0,0,100" Name="label2" VerticalAlignment="Bottom" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,135,0,0" Name="textBox2" VerticalAlignment="Top" Width="120" />
-        <Label Content="Opret afdeling" Height="28" HorizontalAlignment="Left" Margin="91,36,0,0" Name="label3" VerticalAlignment="Top" />
-        <Button Content="Opret afdeling" Height="23" HorizontalAlignment="Left" Margin="94,197,0,0" Name="button1" VerticalAlignment="Top" Width="84" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,48,0,0" Name="txtDepartmentName" VerticalAlignment="Top" Width="120" />
+        <Label Content="Afdelingsnavn" Height="28" HorizontalAlignment="Left" Margin="12,46,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Afdelingsnummer" Height="28" HorizontalAlignment="Left" Margin="12,0,0,188" Name="label2" VerticalAlignment="Bottom" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,79,0,0" Name="txtDepartmentNumber" VerticalAlignment="Top" Width="120" />
+        <Label Content="Opret afdeling" Height="28" HorizontalAlignment="Left" Margin="91,12,0,0" Name="label3" VerticalAlignment="Top" />
+        <Button Content="Opret afdeling" Height="23" HorizontalAlignment="Left" Margin="91,230,0,0" Name="btnCreateDepartment" VerticalAlignment="Top" Width="84" Click="button1_Click" />
+        <Label Content="Vej navn" Height="28" HorizontalAlignment="Left" Margin="12,106,0,0" Name="AfdelingsGade" VerticalAlignment="Top" />
+        <Label Content="Vej nummer" Height="28" HorizontalAlignment="Left" Margin="12,135,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="Post nummer" Height="28" HorizontalAlignment="Left" Margin="12,165,0,0" Name="label7" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,108,0,0" Name="txtStreetName" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,167,0,0" Name="txtPostalCode" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,137,0,0" Name="txtStreetNumber" VerticalAlignment="Top" Width="120" />
     </Grid>
 </Window>

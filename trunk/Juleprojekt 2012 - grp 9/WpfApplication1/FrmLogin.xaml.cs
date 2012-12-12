@@ -11,17 +11,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Controller;
 
-namespace WpfApplication1
+namespace GUI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        //husk at sende controlleren med til nye vinduer
+        SystemController controller;
+
         public MainWindow()
         {
             InitializeComponent();
+            controller = new SystemController();
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
