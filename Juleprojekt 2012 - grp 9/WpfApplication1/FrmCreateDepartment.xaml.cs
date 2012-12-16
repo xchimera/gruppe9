@@ -19,25 +19,20 @@ namespace GUI
     /// </summary>
     public partial class FrmCreateDepartment : Window
     {
-        private SystemController controller;
+        
 
-
-        public FrmCreateDepartment(SystemController controller)
+    public FrmCreateDepartment()
         {
             InitializeComponent();
-            this.controller = controller;
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
+    private void btnCreateDepartment_Click(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show("Afdelingen er oprettet!");
+        Close();
+    }
+      
 
-
-            if (!controller.CreateDepartment(int.Parse(txtDepartmentNumber.Text), txtDepartmentName.Text, txtStreetName.Text, int.Parse(txtStreetNumber.Text), int.Parse(txtPostalCode.Text)))
-            {
-                MessageBox.Show("Der skete en fejl, tjek venligst felterne og prøv igen");
-            }
-
-
-        }
+       
     }
 }
