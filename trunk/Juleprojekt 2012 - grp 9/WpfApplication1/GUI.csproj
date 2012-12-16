@@ -55,8 +55,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FrmCreateQuestion.xaml.cs">
+      <DependentUpon>FrmCreateQuestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCreateUser.xaml.cs">
+      <DependentUpon>FrmCreateUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FrmDeleteDepartment.xaml.cs">
       <DependentUpon>FrmDeleteDepartment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeleteQuestion.xaml.cs">
+      <DependentUpon>FrmDeleteQuestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeleteUser.xaml.cs">
+      <DependentUpon>FrmDeleteUser.xaml</DependentUpon>
     </Compile>
     <Compile Include="FrmEditDepartment.xaml.cs">
       <DependentUpon>FrmEditDepartment.xaml</DependentUpon>
@@ -64,13 +76,41 @@
     <Compile Include="FrmCreateDepartment.xaml.cs">
       <DependentUpon>FrmCreateDepartment.xaml</DependentUpon>
     </Compile>
+    <Page Include="FrmCreateQuestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmCreateUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FrmDeleteDepartment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmDeleteQuestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmDeleteUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FrmEditDepartment.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FrmEditQuestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmEditQuestionMulti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmEditUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FrmLoggedIn.xaml">
       <SubType>Designer</SubType>
@@ -84,6 +124,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FrmEditQuestion.xaml.cs">
+      <DependentUpon>FrmEditQuestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditQuestionMulti.xaml.cs">
+      <DependentUpon>FrmEditQuestionMulti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditUser.xaml.cs">
+      <DependentUpon>FrmEditUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FrmLoggedIn.xaml.cs">
       <DependentUpon>FrmLoggedIn.xaml</DependentUpon>
     </Compile>
@@ -95,8 +144,29 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FrmPublishSurvey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmQuestionMulti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmStopPublishSurvey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmPublishSurvey.xaml.cs">
+      <DependentUpon>FrmPublishSurvey.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQuestionMulti.xaml.cs">
+      <DependentUpon>FrmQuestionMulti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStopPublishSurvey.xaml.cs">
+      <DependentUpon>FrmStopPublishSurvey.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
