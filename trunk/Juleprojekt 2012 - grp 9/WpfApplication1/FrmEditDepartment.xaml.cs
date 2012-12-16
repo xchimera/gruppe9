@@ -9,31 +9,30 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controller;
 
 namespace GUI
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FrmEditDepartment : Window
     {
-        //husk at sende controlleren med til nye vinduer
-        SystemController controller;
+        
 
-        public MainWindow()
+    public FrmEditDepartment()
         {
             InitializeComponent();
-            controller = new SystemController();
         }
 
-    
-        private void button1_Click_1(object sender, RoutedEventArgs e)
-        {
-            var newWindow = new FrmLoggedIn();
-            newWindow.Show();
-        }
+    private void btnEditDepartment_Click(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show("Afdelingen er redigeret!");
+        Close();
+    }
+      
+
+       
     }
 }
