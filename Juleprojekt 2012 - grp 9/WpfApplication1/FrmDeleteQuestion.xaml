@@ -1,0 +1,16 @@
+﻿<Window x:Class="GUI.FrmDeleteQuestion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Odense Kommune 2012 | Slet Spørgsmål" Height="145" Width="300">
+    <Grid>
+        <Button Content="Slet Spørgsmål" Height="23" HorizontalAlignment="Left" Margin="152,73,0,0" Name="button1" VerticalAlignment="Top" Width="114" Click="button1_Click" />
+        <Label Content="Slet Spørgsmål:" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" Width="259" HorizontalContentAlignment="Center" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="12,44,0,0" Name="comboBox2" VerticalAlignment="Top" Width="254">
+            <ComboBoxItem Content="Borger kan håndtere praktiske opgaver" />
+            <ComboBoxItem Content="Borger kan være tilstede i en gruppe" />
+            <ComboBoxItem Content="Borgere har stabilt fremmøde" />
+            <ComboBoxItem Content="Borgere forbliver stoffri" />
+            <ComboBoxItem Content="Borger påtager sig ansvar" />
+        </ComboBox>
+    </Grid>
+</Window>

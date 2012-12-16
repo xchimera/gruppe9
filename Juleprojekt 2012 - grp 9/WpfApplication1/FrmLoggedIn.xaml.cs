@@ -46,5 +46,54 @@ namespace GUI
             newWindow.Show();
         }
 
+        private void BtnUserCreate_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmCreateUser();
+            newWindow.Show();
+        }
+
+        private void BtnUserEdit_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmEditUser();
+            newWindow.Show();
+        }
+
+        private void BtnUserDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmDeleteUser();
+            newWindow.Show();
+        }
+
+        private void BtnSpgCreate_Click(object sender, RoutedEventArgs e)
+        {
+
+            var newWindow = new FrmCreateQuestion();
+            newWindow.Show();
+        }
+
+        private void BtnSpgEdit_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmEditQuestion();
+            newWindow.Show();
+        }
+
+        private void BtnSpgDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmDeleteQuestion();
+            newWindow.Show();
+        }
+
+        private void BtnSurveyPublish_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmPublishSurvey();
+            newWindow.Show();
+        }
+
+        private void BtnSurveyStopPublish_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmStopPublishSurvey();
+            newWindow.Show();
+        }
+
     }
 }
