@@ -101,5 +101,11 @@ namespace GUI
             newWindow.Show();
         }
 
+        private void BtnSurveyEdit_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmEditSurvey();
+            newWindow.Show();
+        }
+
     }
 }

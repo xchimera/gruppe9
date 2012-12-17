@@ -18,7 +18,7 @@
         <Button Content="Slet" Height="23" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Margin="0,125,137,0" Name="BtnSpgDelete" VerticalAlignment="Top" Width="41" Click="BtnSpgDelete_Click" />
         <Label Content="Administrer Spørgeskemaer:" Height="28" HorizontalAlignment="Left" Margin="12,157,0,0" Name="label5" VerticalAlignment="Top" Width="163" />
         <Button Content="Opret" Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="181,158,0,0" Name="BtnSurveyCreate" VerticalAlignment="Top" Width="51" IsEnabled="True" Click="BtnSurveyCreate_Click" />
-        <Button Content="Rediger" Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="238,158,0,0" Name="BtnSurveyEdit" VerticalAlignment="Top" Width="54" IsEnabled="False" />
+        <Button Content="Rediger" Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="238,158,0,0" Name="BtnSurveyEdit" VerticalAlignment="Top" Width="54" IsEnabled="True" Click="BtnSurveyEdit_Click" />
         <Button Content="Slet" Height="23" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Margin="0,158,137,0" Name="BtnSurveyDelete" VerticalAlignment="Top" Width="41" IsEnabled="False" />
         <Label Content="Administrer Journaler:" Height="28" HorizontalAlignment="Left" Margin="12,190,0,0" Name="label6" VerticalAlignment="Top" Width="163" />
         <Button Content="Opret" Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="181,191,0,0" Name="BtnClientCreate" VerticalAlignment="Top" Width="51" IsEnabled="False" />
