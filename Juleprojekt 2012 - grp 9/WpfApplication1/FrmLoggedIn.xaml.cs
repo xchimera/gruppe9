@@ -107,5 +107,17 @@ namespace GUI
             newWindow.Show();
         }
 
+        private void BtnSurveyDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmDeleteSurvey();
+            newWindow.Show();
+        }
+
+        private void BtnClientDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmDeleteClient();
+            newWindow.Show();
+        }
+
     }
 }

@@ -1,0 +1,18 @@
+﻿<Window x:Class="GUI.FrmDeleteClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Odense Kommune 2012 | Slet Journal/Borger" Height="173" Width="300">
+    <Grid>
+        <Label Content="Slet Journal/Borger" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Name="label1" VerticalAlignment="Top" Width="278" />
+        <Label Content="Vælg Journal/Borger:" Height="28" HorizontalAlignment="Left" Margin="12,43,0,0" Name="label5" VerticalAlignment="Top" Width="120" />
+        <ComboBox Height="20" HorizontalAlignment="Left" Margin="12,77,0,0" Name="comboBox1" VerticalAlignment="Top" Width="254">
+            <ComboBoxItem Content="Bent Hansen 031275" />
+            <ComboBoxItem Content="Egon Juhl Berthelsen 070365" />
+            <ComboBoxItem Content="Bente Dorit 101050" />
+            <ComboBoxItem Content="Mette Rasmussen 031055" />
+            <ComboBoxItem Content="Bo 123456" />
+            <ComboBoxItem Content="Muhammed Ali 654321" />
+        </ComboBox>
+        <Button Content="Slet Journal/Borger" Height="23" HorizontalAlignment="Left" Margin="138,103,0,0" Name="button1" VerticalAlignment="Top" Width="128" Click="button1_Click" />
+    </Grid>
+</Window>

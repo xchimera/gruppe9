@@ -64,6 +64,9 @@
     <Compile Include="FrmCreateUser.xaml.cs">
       <DependentUpon>FrmCreateUser.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FrmDeleteClient.xaml.cs">
+      <DependentUpon>FrmDeleteClient.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FrmDeleteDepartment.xaml.cs">
       <DependentUpon>FrmDeleteDepartment.xaml</DependentUpon>
     </Compile>
@@ -91,6 +94,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FrmCreateUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmDeleteClient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
