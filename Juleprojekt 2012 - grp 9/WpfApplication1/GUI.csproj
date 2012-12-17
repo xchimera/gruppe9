@@ -58,6 +58,9 @@
     <Compile Include="FrmCreateQuestion.xaml.cs">
       <DependentUpon>FrmCreateQuestion.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FrmCreateSurvey.xaml.cs">
+      <DependentUpon>FrmCreateSurvey.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FrmCreateUser.xaml.cs">
       <DependentUpon>FrmCreateUser.xaml</DependentUpon>
     </Compile>
@@ -66,6 +69,9 @@
     </Compile>
     <Compile Include="FrmDeleteQuestion.xaml.cs">
       <DependentUpon>FrmDeleteQuestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeleteSurvey.xaml.cs">
+      <DependentUpon>FrmDeleteSurvey.xaml</DependentUpon>
     </Compile>
     <Compile Include="FrmDeleteUser.xaml.cs">
       <DependentUpon>FrmDeleteUser.xaml</DependentUpon>
@@ -80,6 +86,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FrmCreateSurvey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FrmCreateUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -89,6 +99,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FrmDeleteQuestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmDeleteSurvey.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -105,6 +119,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FrmEditQuestionMulti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrmEditSurvey.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -129,6 +147,9 @@
     </Compile>
     <Compile Include="FrmEditQuestionMulti.xaml.cs">
       <DependentUpon>FrmEditQuestionMulti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditSurvey.xaml.cs">
+      <DependentUpon>FrmEditSurvey.xaml</DependentUpon>
     </Compile>
     <Compile Include="FrmEditUser.xaml.cs">
       <DependentUpon>FrmEditUser.xaml</DependentUpon>
