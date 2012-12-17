@@ -22,5 +22,11 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Spørgeskemaet er redigeret.");
+            Close();
+        }
     }
 }
