@@ -6,21 +6,28 @@ using Interface;
 
 namespace Model
 {
-    public class Afdeling : Iafdeling
+    public class Afdeling : IAfdeling
     {
-        private int departmentID { get; }
-        private string departmentName { set; get; }
-        private string departmentNumber { set; get; }
+        // attributter
+        public int DepartmentID { set; get; }
+        public string DepartmentName { set; get; }
+        public string DepartmentNumber { set; get; }
+        public string StreetName { set; get; }
+        public int StreetNumber { set; get; }
+        public int PostalCode { set; get; }
 
 
         static private int i = 0;
 
-        public Afdeling(string _departmentName)
+        // konstruktør
+        public Afdeling(string _departmentName, string _departmentNumber, string _streetName, int _streetNumber, int _postalCode)
         {
-            
-            int departmentID = i++;
-            departmentName = _departmentName;
-            
+           this.DepartmentID = i++;
+            this.DepartmentName = _departmentName;
+            this.DepartmentNumber = _departmentNumber;
+            this.StreetName = _streetName;
+            this.StreetNumber = _streetNumber;
+            this.PostalCode = _postalCode;
         }
     }
 }

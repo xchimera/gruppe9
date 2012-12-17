@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseController.cs" />
     <Compile Include="SystemController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{FFBCCF84-5F54-4EAE-A05A-167D82045701}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{57DE9AC1-7674-49F3-B621-A70E9B52D57F}</Project>
       <Name>Model</Name>

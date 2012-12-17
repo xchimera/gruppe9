@@ -18,9 +18,15 @@ namespace GUI
     /// </summary>
     public partial class FrmLoggedIn : Window
     {
-        public FrmLoggedIn()
+        private Controller.SystemController controller;
+
+      
+
+        public FrmLoggedIn(Controller.SystemController controller)
         {
+
             InitializeComponent();
+            this.controller = controller;
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -30,7 +36,7 @@ namespace GUI
 
         private void BtnDeptCreate_Click(object sender, RoutedEventArgs e)
         {
-            var newWindow = new FrmCreateDepartment();
+            var newWindow = new FrmCreateDepartment(controller);
             newWindow.Show();
         }
 
@@ -85,7 +91,7 @@ namespace GUI
 
         private void BtnSurveyPublish_Click(object sender, RoutedEventArgs e)
         {
-            var newWindow = new FrmPublishSurvey();
+            var newWindow = new FrmPublishSurvey(controller);
             newWindow.Show();
         }
 

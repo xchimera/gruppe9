@@ -5,11 +5,13 @@ using System.Text;
 
 namespace Interface
 {
-    public class Iafdeling
+    public interface IAfdeling
     {
-        public int DepartmentID { get; }
-        public string DepartmentName { get; }
-        public string DepartmentNumber { get; }
-
+        int DepartmentID { get; }
+        string DepartmentName { get; }
+        string DepartmentNumber { get; }
+        string StreetName { get; }
+        int StreetNumber { get; }
+        int PostalCode { get; }
     }
 }
