@@ -32,7 +32,7 @@ namespace GUI
     
         private void button1_Click_1(object sender, RoutedEventArgs e)
         {
-            var newWindow = new FrmLoggedIn();
+            var newWindow = new FrmLoggedIn(controller);
             newWindow.Show();
         }
     }
