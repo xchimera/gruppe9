@@ -4,7 +4,7 @@
         Title="Odense Kommune 2012 | Rediger Spørgeskema" Height="448" Width="365">
     <Grid>
         <Label Content="Rediger Spørgeskema" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Name="label1" VerticalAlignment="Top" Width="343" />
-        <Button Content="Rediger Spørgeskema" Height="23" HorizontalAlignment="Left" Margin="206,372,0,0" Name="button1" VerticalAlignment="Top" Width="125" />
+        <Button Content="Rediger Spørgeskema" Height="23" HorizontalAlignment="Left" Margin="206,372,0,0" Name="button1" VerticalAlignment="Top" Width="125" Click="button1_Click" />
         <Label Content="Mulige Spørgsmål" Height="28" HorizontalAlignment="Left" Margin="12,161,0,0" Name="label2" VerticalAlignment="Top" Width="120" />
         <ListBox Height="171" HorizontalAlignment="Left" Margin="12,195,0,0" Name="listBox1" VerticalAlignment="Top" Width="120" />
         <ListBox Height="171" HorizontalAlignment="Left" Margin="211,195,0,0" Name="listBox2" VerticalAlignment="Top" Width="120" />
