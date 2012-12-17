@@ -20,7 +20,7 @@ namespace Model
             
             int departmentID = i++;
             departmentName = _departmentName;
-           
+            
         }
     }
 }
