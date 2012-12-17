@@ -1,0 +1,15 @@
+﻿<Window x:Class="GUI.FrmDeleteSurvey"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Odense Kommune 2012 | Slet Spørgeskema" Height="185" Width="300">
+    <Grid>
+        <Label Content="Slet Spørgeskema" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Name="label1" VerticalAlignment="Top" Width="278" />
+        <Button Content="Slet Spørgeskema" Height="23" HorizontalAlignment="Left" Margin="141,114,0,0" Name="button1" VerticalAlignment="Top" Width="125" />
+        <Label Content="Vælg spørgeskema:" Height="28" HorizontalAlignment="Left" Margin="12,34,0,0" Name="label5" VerticalAlignment="Top" Width="120" />
+        <ComboBox Height="40" HorizontalAlignment="Left" Margin="12,68,0,0" Name="comboBox1" VerticalAlignment="Top" Width="254">
+            <ComboBoxItem Content="Spørgeskema 1" />
+            <ComboBoxItem Content="Spørgeskema 2" />
+            <ComboBoxItem Content="Spørgeskema 3" />
+        </ComboBox>
+    </Grid>
+</Window>

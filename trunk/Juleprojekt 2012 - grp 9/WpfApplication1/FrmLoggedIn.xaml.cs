@@ -95,5 +95,11 @@ namespace GUI
             newWindow.Show();
         }
 
+        private void BtnSurveyCreate_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new FrmCreateSurvey();
+            newWindow.Show();
+        }
+
     }
 }
