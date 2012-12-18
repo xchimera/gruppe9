@@ -23,7 +23,7 @@ namespace Controller
         public void CreateDepartment(string departmentNumber, string name, string streetName, int streetNumber, int postalCode)
         {
             Afdeling afdeling = afdelingsColl.OpretAfdeling(name, departmentNumber, streetName, streetNumber, postalCode);
-            //Her skal smide noget kode som skriver til en tekst fil.
+            //Her skal der skrives noget kode som skriver til en tekst fil.
             
         }
 
