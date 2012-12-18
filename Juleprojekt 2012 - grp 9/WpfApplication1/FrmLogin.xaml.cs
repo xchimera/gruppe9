@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Controller;
 
+//Søren Rasmussen
 namespace GUI
 {
     /// <summary>
@@ -26,7 +27,18 @@ namespace GUI
         public MainWindow()
         {
             InitializeComponent();
-            controller = new SystemController();
+
+            try
+            {
+                controller = SystemController.HentData();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Ingen data indlæst!");
+                controller = new SystemController();
+                return;
+
+            }
         }
 
     

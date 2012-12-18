@@ -14,6 +14,7 @@ using Controller;
 using System.Collections;
 using Interface;
 
+//Søren Rasmussen
 namespace GUI
 {
     /// <summary>
@@ -32,6 +33,7 @@ namespace GUI
             InitializeComponent();
             this.controller = controller;
             ShowDepartments();
+            
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -49,8 +51,11 @@ namespace GUI
             while (afdelingsIterator.MoveNext())
             {
                 iAfdeling = (IAfdeling)afdelingsIterator.Current;
+
                 CbbChooseDepartment.Items.Add(iAfdeling.DepartmentName);
             }
         }
+
+       
     }
 }

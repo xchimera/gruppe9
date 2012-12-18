@@ -15,14 +15,7 @@
             <ComboBoxItem Content="Spørgeskema 3" />
         </ComboBox>
         <Label Content="Vælg spørgeskema" Height="28" HorizontalAlignment="Left" Margin="12,34,0,0" Name="label4" VerticalAlignment="Top" Width="180" />
-        <ComboBox Height="40" HorizontalAlignment="Left" Margin="259,62,0,0" Name="CbbChooseDepartment" VerticalAlignment="Top" Width="180">
-            <ComboBoxItem Content="Reden" />
-            <ComboBoxItem Content="Værested for Kuwait Kurdere" />
-            <ComboBoxItem Content="Cafe Paraplyen" />
-            <ComboBoxItem Content="Kirkens Korshærs Dagvarmestue" />
-            <ComboBoxItem Content="Kirkens Korshærs Natvarmestue" />
-            <ComboBoxItem Content="Tuba" />
-        </ComboBox>
+        <ComboBox Height="40" HorizontalAlignment="Left" Margin="259,62,0,0" Name="CbbChooseDepartment" VerticalAlignment="Top" Width="180"></ComboBox>
         <Label Content="Vælg afdeling" Height="28" HorizontalAlignment="Left" Margin="259,34,0,0" Name="label5" VerticalAlignment="Top" Width="180" />
     </Grid>
 </Window>

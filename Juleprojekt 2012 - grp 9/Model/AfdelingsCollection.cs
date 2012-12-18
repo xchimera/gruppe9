@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 
+//Søren Rasmussen
 namespace Model
 {
+    [Serializable]
     public class AfdelingsCollection
     {
         // attribut
@@ -26,10 +28,14 @@ namespace Model
             return ny_afdeling;
         }
 
+    
+
         //Metode til at hente en liste af afdelinger
         public IEnumerator GetDepartmentList()
         {
             return afdelingsliste.GetEnumerator();
         }
+
+     
     }
 }
