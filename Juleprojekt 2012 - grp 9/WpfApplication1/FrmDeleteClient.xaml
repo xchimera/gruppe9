@@ -5,7 +5,7 @@
     <Grid>
         <Label Content="Slet Journal/Borger" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Name="label1" VerticalAlignment="Top" Width="278" />
         <Label Content="Vælg Journal/Borger:" Height="28" HorizontalAlignment="Left" Margin="12,43,0,0" Name="label5" VerticalAlignment="Top" Width="120" />
-        <ComboBox Height="20" HorizontalAlignment="Left" Margin="12,77,0,0" Name="comboBox1" VerticalAlignment="Top" Width="254">
+        <ComboBox Height="20" HorizontalAlignment="Left" Margin="12,77,0,0" Name="comboBox1" VerticalAlignment="Top" Width="254" TabIndex="1">
             <ComboBoxItem Content="Bent Hansen 031275" />
             <ComboBoxItem Content="Egon Juhl Berthelsen 070365" />
             <ComboBoxItem Content="Bente Dorit 101050" />
@@ -13,6 +13,6 @@
             <ComboBoxItem Content="Bo 123456" />
             <ComboBoxItem Content="Muhammed Ali 654321" />
         </ComboBox>
-        <Button Content="Slet Journal/Borger" Height="23" HorizontalAlignment="Left" Margin="138,103,0,0" Name="button1" VerticalAlignment="Top" Width="128" Click="button1_Click" />
+        <Button Content="Slet Journal/Borger" Height="23" HorizontalAlignment="Left" Margin="138,103,0,0" Name="button1" VerticalAlignment="Top" Width="128" Click="button1_Click" TabIndex="2" />
     </Grid>
 </Window>

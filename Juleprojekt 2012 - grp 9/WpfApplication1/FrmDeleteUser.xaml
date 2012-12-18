@@ -6,7 +6,7 @@
         <Label Content="Vælg Bruger:" Height="28" HorizontalAlignment="Left" Margin="12,52,0,0" Name="label5" VerticalAlignment="Top" Width="128" />
         <Button Content="Slet Bruger" Height="23" HorizontalAlignment="Left" Margin="174,118,0,0" Name="button1" VerticalAlignment="Top" Width="92" Click="button1_Click" />
         <Label Content="Slet en bruger" Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="278" HorizontalContentAlignment="Center" />
-        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,57,12,0" Name="comboBox2" VerticalAlignment="Top" Width="120">
+        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,57,12,0" Name="comboBox2" VerticalAlignment="Top" Width="120" TabIndex="1">
             <ComboBoxItem Content="KonsulentChef" />
             <ComboBoxItem Content="KonsulentReden" />
             <ComboBoxItem Content="SagsbehandlerReden" />

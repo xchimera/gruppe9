@@ -5,7 +5,7 @@
     <Grid>
         <Label Content="Slet afdeling" Height="28" HorizontalAlignment="Left" Margin="83,7,0,0" Name="label3" VerticalAlignment="Top" />
         <Button Content="Slet afdeling" Height="23" HorizontalAlignment="Left" Margin="83,70,0,0" Name="btnEditDepartment" VerticalAlignment="Top" Width="112" Click="btnEditDepartment_Click" />
-        <ComboBox Height="23" HorizontalAlignment="Left" Margin="12,43,0,0" Name="comboBox1" VerticalAlignment="Top" Width="254">
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="12,43,0,0" Name="comboBox1" VerticalAlignment="Top" Width="254" TabIndex="1">
             <ComboBoxItem Content="Reden" />
             <ComboBoxItem Content="Værested for Kuwait Kurdere" />
             <ComboBoxItem Content="Cafe Paraplyen" />

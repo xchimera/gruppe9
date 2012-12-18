@@ -3,18 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Odense Kommune 2012 | Opret Bruger" Height="300" Width="300">
     <Grid>
-        <Button Content="Opret Bruger" Height="23" HorizontalAlignment="Left" Margin="182,226,0,0" Name="button1" VerticalAlignment="Top" Width="84" Click="button1_Click" />
+        <Button Content="Opret Bruger" Height="23" HorizontalAlignment="Left" Margin="182,226,0,0" Name="button1" VerticalAlignment="Top" Width="84" Click="button1_Click" TabIndex="5" />
         <Label Content="Brugernavn:" Height="28" HorizontalAlignment="Left" Margin="12,34,0,0" Name="label1" VerticalAlignment="Top" Width="128" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="146,34,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="146,34,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" TabIndex="1" />
         <Label Content="Opret Bruger" Height="28" HorizontalAlignment="Center" Name="label3" VerticalAlignment="Top" Width="278" HorizontalContentAlignment="Center" />
         <Label Content="Kodeord:" Height="28" HorizontalAlignment="Left" Margin="12,68,0,0" Name="label2" VerticalAlignment="Top" Width="128" />
         <Label Content="Gentag Kodeord:" Height="28" HorizontalAlignment="Left" Margin="12,97,0,0" Name="label4" VerticalAlignment="Top" Width="128" />
         <Label Content="Rettigheder:" Height="28" HorizontalAlignment="Left" Margin="12,131,0,0" Name="label5" VerticalAlignment="Top" Width="128" />
-        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,136,12,0" Name="comboBox1" VerticalAlignment="Top" Width="120">
+        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,136,12,0" Name="comboBox1" VerticalAlignment="Top" Width="120" TabIndex="4">
             <ComboBoxItem Content="Konsulent" />
             <ComboBoxItem Content="Sagsbehandler" />
         </ComboBox>
-        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="146,68,0,0" Name="passwordBox1" VerticalAlignment="Top" Width="120" />
-        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="146,102,0,0" Name="passwordBox2" VerticalAlignment="Top" Width="120" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="146,68,0,0" Name="passwordBox1" VerticalAlignment="Top" Width="120" TabIndex="2" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="146,102,0,0" Name="passwordBox2" VerticalAlignment="Top" Width="120" TabIndex="3" />
     </Grid>
 </Window>
