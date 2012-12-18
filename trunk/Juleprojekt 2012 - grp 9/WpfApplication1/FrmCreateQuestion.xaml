@@ -3,11 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Odense Kommune 2012 | Opret Spørgsmål" Height="300" Width="300">
     <Grid>
-        <Button Content="Opret Spørgsmål" Height="23" HorizontalAlignment="Left" Margin="152,226,0,0" Name="button1" VerticalAlignment="Top" Width="114" Click="button1_Click" />
+        <Button Content="Opret Spørgsmål" Height="23" HorizontalAlignment="Left" Margin="152,226,0,0" Name="button1" VerticalAlignment="Top" Width="114" Click="button1_Click" TabIndex="3" />
         <Label Content="Spørgsmåls Tekst:" Height="28" HorizontalAlignment="Left" Margin="0,34,0,0" Name="label1" VerticalAlignment="Top" Width="128" />
-        <TextBox Height="96" HorizontalAlignment="Left" Margin="12,60,0,0" Name="textBox1" VerticalAlignment="Top" Width="254" TextWrapping="Wrap" />
+        <TextBox Height="96" HorizontalAlignment="Left" Margin="12,60,0,0" Name="textBox1" VerticalAlignment="Top" Width="254" TextWrapping="Wrap" TabIndex="1" />
         <Label Content="Opret Spørgsmål" Height="28" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Name="label3" VerticalAlignment="Top" Width="278" />
-        <ComboBox Height="23" HorizontalAlignment="Left" Margin="79,162,0,0" Name="comboBox1" VerticalAlignment="Top" Width="187">
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="79,162,0,0" Name="comboBox1" VerticalAlignment="Top" Width="187" TabIndex="2">
             <ComboBoxItem Content="Et Svar" />
             <ComboBoxItem Content="Flere Svar" />
             <ComboBoxItem Content="Tekst Felt" />

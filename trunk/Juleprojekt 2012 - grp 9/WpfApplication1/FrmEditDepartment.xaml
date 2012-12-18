@@ -3,19 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Odense Kommune 2012 | Edit Afdeling" Height="332" Width="300">
     <Grid>
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,81,0,0" Name="txtDepartmentName" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,81,0,0" Name="txtDepartmentName" VerticalAlignment="Top" Width="120" TabIndex="2" />
         <Label Content="Afdelingsnavn" Height="28" HorizontalAlignment="Left" Margin="20,79,0,0" Name="label1" VerticalAlignment="Top" />
         <Label Content="Afdelingsnummer" Height="28" HorizontalAlignment="Left" Margin="20,0,0,155" Name="label2" VerticalAlignment="Bottom" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,112,0,0" Name="txtDepartmentNumber" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,112,0,0" Name="txtDepartmentNumber" VerticalAlignment="Top" Width="120" TabIndex="3" />
         <Label Content="Rediger afdeling" Height="28" HorizontalAlignment="Left" Margin="91,12,0,0" Name="label3" VerticalAlignment="Top" />
         <Button Content="Rediger afdeling" Height="23" HorizontalAlignment="Left" Margin="91,230,0,0" Name="btnEditDepartment" VerticalAlignment="Top" Width="112" Click="btnEditDepartment_Click" />
         <Label Content="Vej navn" Height="28" HorizontalAlignment="Left" Margin="20,139,0,0" Name="AfdelingsGade" VerticalAlignment="Top" />
         <Label Content="Vej nummer" Height="28" HorizontalAlignment="Left" Margin="20,168,0,0" Name="label5" VerticalAlignment="Top" />
         <Label Content="Post nummer" Height="28" HorizontalAlignment="Left" Margin="20,198,0,0" Name="label7" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,141,0,0" Name="txtStreetName" VerticalAlignment="Top" Width="120" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,200,0,0" Name="txtPostalCode" VerticalAlignment="Top" Width="120" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,170,0,0" Name="txtStreetNumber" VerticalAlignment="Top" Width="120" />
-        <ComboBox Height="23" HorizontalAlignment="Left" Margin="20,48,0,0" Name="comboBox1" VerticalAlignment="Top" Width="238">
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,141,0,0" Name="txtStreetName" VerticalAlignment="Top" Width="120" TabIndex="4" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,200,0,0" Name="txtPostalCode" VerticalAlignment="Top" Width="120" TabIndex="6" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,170,0,0" Name="txtStreetNumber" VerticalAlignment="Top" Width="120" TabIndex="5" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="20,48,0,0" Name="comboBox1" VerticalAlignment="Top" Width="238" TabIndex="1">
             <ComboBoxItem Content="Reden" />
             <ComboBoxItem Content="Værested for Kuwait Kurdere" />
             <ComboBoxItem Content="Cafe Paraplyen" />

@@ -5,17 +5,17 @@
     <Grid>
         <Label Content="Udgiv Spørgeskema" Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="455" HorizontalContentAlignment="Center" />
         <Button Content="Udgiv Spørgeskema" Height="23" HorizontalAlignment="Right" Margin="0,318,16,0" Name="button1" VerticalAlignment="Top" Width="131" Click="button1_Click" />
-        <Calendar Height="170" HorizontalAlignment="Left" Margin="12,142,0,0" Name="calendar1" VerticalAlignment="Top" Width="180" />
-        <Calendar Height="170" HorizontalAlignment="Left" Margin="259,142,0,0" Name="calendar2" VerticalAlignment="Top" Width="180" />
+        <Calendar Height="170" HorizontalAlignment="Left" Margin="12,142,0,0" Name="calendar1" VerticalAlignment="Top" Width="180" TabIndex="2" />
+        <Calendar Height="170" HorizontalAlignment="Left" Margin="259,142,0,0" Name="calendar2" VerticalAlignment="Top" Width="180" TabIndex="4" />
         <Label Content="Fra dato" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="12,108,0,0" Name="label2" VerticalAlignment="Top" Width="180" />
         <Label Content="Til dato" Height="28" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Margin="0,108,16,0" Name="label3" VerticalAlignment="Top" Width="180" />
-        <ComboBox Height="40" HorizontalAlignment="Left" Margin="12,62,0,0" Name="comboBox1" VerticalAlignment="Top" Width="180">
+        <ComboBox Height="40" HorizontalAlignment="Left" Margin="12,62,0,0" Name="comboBox1" VerticalAlignment="Top" Width="180" TabIndex="1">
             <ComboBoxItem Content="Spørgeskema 1" />
             <ComboBoxItem Content="Spørgeskema 2" />
             <ComboBoxItem Content="Spørgeskema 3" />
         </ComboBox>
         <Label Content="Vælg spørgeskema" Height="28" HorizontalAlignment="Left" Margin="12,34,0,0" Name="label4" VerticalAlignment="Top" Width="180" />
-        <ComboBox Height="40" HorizontalAlignment="Left" Margin="259,62,0,0" Name="CbbChooseDepartment" VerticalAlignment="Top" Width="180"></ComboBox>
+        <ComboBox Height="40" HorizontalAlignment="Left" Margin="259,62,0,0" Name="CbbChooseDepartment" VerticalAlignment="Top" Width="180" TabIndex="3"></ComboBox>
         <Label Content="Vælg afdeling" Height="28" HorizontalAlignment="Left" Margin="259,34,0,0" Name="label5" VerticalAlignment="Top" Width="180" />
     </Grid>
 </Window>
