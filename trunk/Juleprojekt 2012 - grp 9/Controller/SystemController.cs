@@ -8,7 +8,7 @@ using Model;
 using Interface;
 using System.Runtime.Serialization.Formatters.Binary;
 
-//Søren Rasmussen
+//Søren Rasmussen Start
 namespace Controller
 {
     [Serializable]
@@ -29,7 +29,7 @@ namespace Controller
         public void CreateDepartment(string departmentNumber, string name, string streetName, int streetNumber, int postalCode)
         {
             Afdeling afdeling = afdelingsColl.OpretAfdeling(name, departmentNumber, streetName, streetNumber, postalCode);
-            //Her skal der skrives noget kode som skriver til en tekst fil.
+            //Gemmer data i fil via en metode
             GemData();
            
         }
@@ -39,7 +39,8 @@ namespace Controller
         {
            return afdelingsColl.GetDepartmentList();
         }
-
+        
+        //metode til at gemme data i fil
         private void GemData()
         {
             FileStream fileStream = new FileStream(FILNAVN, FileMode.Create, FileAccess.Write); // Skaber fil til skrivning
@@ -51,6 +52,8 @@ namespace Controller
 
             fileStream.Close();// lukker stream
         }
+
+        //Metode til at hente data
         public static SystemController HentData()
         {
             FileStream fileStream = null;
@@ -75,5 +78,13 @@ namespace Controller
             return controller;
 
         }
+        // Søren Rasmussen Slut
+        //Rasmus Start
+
+
+
+
+
+        // Rasmus Slut
     }
 }
