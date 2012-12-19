@@ -21,19 +21,20 @@ namespace Website
                 // Spørgeskema skal have Spørgsmålsnavn, svartype, svarmuligheder
                 // Den skal gemme spørgsmålnavn plus svar
 
-                string spørgsmålNavn = "";
-                string svarMuligheder;
-                short svarType = -1; // -1 er udefineret, 0 er textbox, 1 er ét svar, 2 er flere svar
-
-
-                int spørgsmålNr = 0;
-
-
                 //string nuvLabel = "Label" + spørgsmålNr.ToString();
                 //Label1.Text = spørgsmålNavn + " ";
                 //Label1.Visible = true;
 
+                string spørgsmålNavn = "";
+                string svarMuligheder;
+                short svarType = -1; // -1 er udefineret, 0 er textbox, 1 er ét svar, 2 er flere svar
+                int spørgsmålNr = 1;
 
+
+                while (spørgsmålNr <= 10)
+                {
+
+                #region Spørgsmålsbehandling
                 if (spørgsmålNr == 1)
                 {
                     #region Spørgsmål 1
@@ -294,32 +295,9 @@ namespace Website
                     }
                     #endregion
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-                Label2.Text = "Navn: ";
-                Label2.Visible = true;
-                DropDownList2.Visible = false;
-                txt2.Visible = true;
-                CheckBoxList2.Visible = false;
-
-
-                //TextBox myTextBox = new TextBox();
-                //myTextBox.Text = "Content here";
-                //this.txt1.Controls.Add(myTextBox);
-                //myTextBox.Visible = true;
-                //myTextBox.
-
-
+                #endregion
+                spørgsmålNr++;
+                }
             }
         }
     }
