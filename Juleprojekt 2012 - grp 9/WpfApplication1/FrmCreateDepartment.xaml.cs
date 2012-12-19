@@ -36,7 +36,7 @@ namespace GUI
 
         private void btnCreateDepartment_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Afdelingen er oprettet!");
+           
             // opret afdeling i systemet og gem i tekstfil.
             string departmentName = txtDepartmentName.Text;
             string departmentNumber = txtDepartmentNumber.Text;
@@ -44,6 +44,7 @@ namespace GUI
             int streetNumber = Convert.ToInt32(txtStreetNumber.Text);
             int postalCode = Convert.ToInt32(txtPostalCode.Text);
             controller.CreateDepartment(departmentNumber, departmentName, streetName, streetNumber, postalCode);
+            MessageBox.Show("Afdelingen er oprettet!");
             Close();
         }
 

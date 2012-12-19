@@ -16,9 +16,7 @@ namespace Model
         public string StreetName { set; get; }
         public int StreetNumber { set; get; }
         public int PostalCode { set; get; }
-
-
-        static private int i = 0;
+        static private int i = 0; 
 
         // konstruktør
         public Afdeling(string _departmentName, string _departmentNumber, string _streetName, int _streetNumber, int _postalCode)
