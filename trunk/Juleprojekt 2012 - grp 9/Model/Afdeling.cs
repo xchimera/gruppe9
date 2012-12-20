@@ -29,4 +29,10 @@ namespace Model
             this.PostalCode = _postalCode;
         }
     }
+
+    [Serializable]
+    public class Sporgsmaal : ISporgsmaal
+    {
+
+    }
 }
