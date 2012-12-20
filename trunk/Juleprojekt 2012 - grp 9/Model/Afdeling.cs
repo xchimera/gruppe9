@@ -30,9 +30,4 @@ namespace Model
         }
     }
 
-    [Serializable]
-    public class Sporgsmaal : ISporgsmaal
-    {
-
-    }
 }

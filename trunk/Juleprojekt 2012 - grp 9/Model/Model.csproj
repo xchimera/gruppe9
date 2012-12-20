@@ -43,12 +43,16 @@
     <Compile Include="Afdeling.cs" />
     <Compile Include="AfdelingsCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spørgsmål.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Interface\Interface.csproj">
       <Project>{FFBCCF84-5F54-4EAE-A05A-167D82045701}</Project>
       <Name>Interface</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
