@@ -31,9 +31,11 @@ namespace Website
                 int spørgsmålNr = 1;
 
 
+                // klient id
+
                 while (spørgsmålNr <= 10)
                 {
-
+                // Den er ikke rettet til, da vi ikke er blevet færdige med spørgsmål/spørgeskemaer.
                 #region Spørgsmålsbehandling
                 if (spørgsmålNr == 1)
                 {
