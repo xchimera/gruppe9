@@ -8,9 +8,9 @@ namespace Interface
 {
        public interface ISporgsmaal
         {
-            public int QuestionID { set; get; }
-            public string QuestionText { set; get; }
-            public string QuestionType { set; get; }
-            static private int i = 0;
+             int QuestionID { get; }
+             string QuestionText { set; get; }
+             string QuestionType { set; get; }
+          
         }
 }
