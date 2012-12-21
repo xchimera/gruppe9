@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Controller;
 
 namespace GUI
 {
@@ -18,9 +19,12 @@ namespace GUI
     /// </summary>
     public partial class FrmCreateQuestion : Window
     {
-        public FrmCreateQuestion()
+        private SystemController controller;
+        public FrmCreateQuestion(SystemController controller)
         {
             InitializeComponent();
+            // TODO: Complete member initialization
+            this.controller = controller;
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
