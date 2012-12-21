@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Interface
 {
-    class ISporgsmaal
-    {
-        public interface ISporgsmaal
-        {
+    //class ISporgsmaal
+    //{
+    //    public interface ISporgsmaal
+    //    {
             
-        }
-    }
+    //    }
+    //}
 }

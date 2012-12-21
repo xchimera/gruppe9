@@ -6,9 +6,9 @@ using Interface;
 
 namespace Model
 {
-    [Serializable]
-    public class Sporgsmaal : ISporgsmaal
-    {
+    //[Serializable]
+    //public class Sporgsmaal : ISporgsmaal
+    //{
 
-    }
+    //}
 }
