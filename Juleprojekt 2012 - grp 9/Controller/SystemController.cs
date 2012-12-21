@@ -18,11 +18,13 @@ namespace Controller
         private const string FILNAVN = "c:/data.bin"; // filen hvor data bliver gemt
         
         private AfdelingsCollection afdelingsColl;
+        private SporgsmaalCollection questionColl;
 
         // konstruktør
         public SystemController()
         {
             this.afdelingsColl = new AfdelingsCollection();
+            this.questionColl = new SporgsmaalCollection();
         }
 
        
@@ -80,7 +82,22 @@ namespace Controller
         }
         // Søren Rasmussen Slut
         //Rasmus Start
+        
+        
+        public void CreateQuestion(string text, string type)
+        {
+            Question question = questionColl.OpretSporgsmaal(text, type);
+            //Gemmer data i fil via en metode
+            GemData();
+        }
 
+        
+        public IEnumerator GetQuestionList()
+        {
+            return questionColl.GetQuestionList();
+        }
+
+        
 
 
 
