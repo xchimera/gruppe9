@@ -74,7 +74,7 @@ namespace GUI
         private void BtnSpgCreate_Click(object sender, RoutedEventArgs e)
         {
 
-            var newWindow = new FrmCreateQuestion();
+            var newWindow = new FrmCreateQuestion(controller);
             newWindow.Show();
         }
 
